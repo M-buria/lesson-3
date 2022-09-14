@@ -1,0 +1,25 @@
+.title{
+    color: #FFB4E5;
+}
+
+img{
+    max-width: 1080px;
+}
+
+.ukraine + span{
+    color: yellow;
+}
+.ukraine{
+    color: blue;
+}
+p > span{
+    color: aqua;
+}
+.history,
+.products > h2 {
+    color: red;
+}
+
+ h2 ~ p{
+    color: blueviolet;
+}
